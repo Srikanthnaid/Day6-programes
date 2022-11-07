@@ -8,7 +8,7 @@ public class StopWatch {
 		System.out.println("Please enter the End time:");
 		long End_time = sc.nextLong();
 		long Elapsed_Time = 0;
-		Elapsed_Time = Start_time - End_time;
+		Elapsed_Time =  End_time - Start_time ;
 		System.out.println("Elasped_time :" +Elapsed_Time);
 	}
 }

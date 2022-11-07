@@ -1,6 +1,6 @@
 /**
  * @author srikanth naidu
- *     6
+ *     
  *   6 divisors =1,2,3
  *   sum of divisors = 1+2+3 = 6
  *   sum of divisors is equals to number that is perfect_number.
@@ -18,6 +18,7 @@ public class Perfect_Number {
 			if(n%i==0)
 			{
 				sum=sum+i;
+				System.out.println(sum);
 			}
 		}
 		if(n==sum)
@@ -27,7 +28,7 @@ public class Perfect_Number {
 		}
 		else
 		{
-			System.out.println("not perfect_number: ");
+			System.out.println("not perfect_number: "+n);
 		}
 		
 	}
